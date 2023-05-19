@@ -17,7 +17,7 @@ const Header = () => {
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="navbarScroll" />
 				<Navbar.Collapse id="navbarScroll">
-					<nav
+					<Nav
 						className="me-auto my-2 my-lg-0"
 						style={{ maxHeight: "100px" }}
 						navbarScroll>
@@ -27,7 +27,7 @@ const Header = () => {
 						<NavLink className="nav-link" to="/watchList">
 							Watch List
 						</NavLink>
-					</nav>
+					</Nav>
 					<Button variant="outline-info" className="me-2">
 						Login
 					</Button>
